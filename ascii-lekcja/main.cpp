@@ -11,7 +11,7 @@ int main() {
     
     for (int i=dlugosc-1; i>=0; i--)
     {
-        suma= suma + ((binarna[i]-(int)'0')*pow(2, (dlugosc-x-1)));
+        suma= suma + ((binarna[i]-(int)'0')*pow(2, (dlugosc-i-1)));
         
         
     }
